@@ -1,7 +1,8 @@
 {
-  "name": "rbc-bug",
+  "name": "rbc-ie11-bug",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://martin-strobel.github.io/rbc-ie11-bug",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "moment": "^2.24.0",
