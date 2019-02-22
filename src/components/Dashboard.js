@@ -9,7 +9,7 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 const localizer = BigCalendar.momentLocalizer(moment);
 export class DashboardCalendar extends React.Component {
   onSelectSlot = props => {
-    this.props.history.push("/calendar", { date: props.start });
+    this.props.history.push("/rbc-ie11-bug/calendar", { date: props.start });
   };
 
   render() {

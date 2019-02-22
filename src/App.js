@@ -9,10 +9,10 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Link to="/dashboard">Dashboard</Link> -{" "}
-          <Link to="/calendar">Calendar</Link>
-          <Route path="/dashboard" component={Dashboard} />
-          <Route path="/calendar" component={Calendar} />
+          <Link to="/rbc-ie11-bug/dashboard">Dashboard</Link> -{" "}
+          <Link to="/rbc-ie11-bug/calendar">Calendar</Link>
+          <Route path="/rbc-ie11-bug/dashboard" component={Dashboard} />
+          <Route path="/rbc-ie11-bug/calendar" component={Calendar} />
         </div>
       </Router>
     );
