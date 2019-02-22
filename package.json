@@ -1,0 +1,33 @@
+{
+  "name": "rbc-bug",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "moment": "^2.24.0",
+    "react": "^16.8.3",
+    "react-app-polyfill": "^0.2.1",
+    "react-big-calendar": "^0.20.3",
+    "react-dom": "^16.8.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie 11"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "react-scripts": "^2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}
